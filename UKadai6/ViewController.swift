@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak private var label: UILabel!
-    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak private var slider: UISlider!
     private var number: Int?
     override func viewDidLoad() {
         super.viewDidLoad()
